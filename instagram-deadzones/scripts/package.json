@@ -1,0 +1,8 @@
+{
+  "name": "instagram-deadzones-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dead-zone audit for Instagram Reels/Stories designs built in HTML",
+  "dependencies": { "playwright": "^1.40.0" }
+}

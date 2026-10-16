@@ -1,0 +1,12 @@
+<!-- Dead-zone overlay for a 1080x1920 canvas. Paste the <style> and the <div id="dz"> into your page while designing. Delete before export. -->
+<style>
+#dz{position:absolute;inset:0;pointer-events:none;z-index:99999}
+#dz i{position:absolute;background:rgba(255,40,70,.28);border:2px dashed rgba(255,40,70,.9);box-sizing:border-box}
+#dz b{position:absolute;color:#fff;font:700 22px/1 sans-serif;padding:6px 10px;background:rgba(255,40,70,.9)}
+</style>
+<div id="dz">
+  <i style="left:0;top:0;width:1080px;height:250px"></i><b style="left:12px;top:12px">TOP 250</b>
+  <i style="left:0;top:1500px;width:1080px;height:420px"></i><b style="left:12px;top:1508px">BOTTOM 420</b>
+  <i style="left:960px;top:250px;width:120px;height:1250px"></i><b style="left:850px;top:262px">RIGHT 120</b>
+  <i style="left:0;top:250px;width:70px;height:1250px"></i>
+</div>
